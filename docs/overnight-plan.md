@@ -34,5 +34,6 @@
 - [x] 検索語調査: 「何も考えずに見れる映画 洋画（アクション）」に決定
 - [x] 1. 90分以内（articles/short-movies-90min.md）: レビュー2回反映、WP下書き ID 544
 - [x] 3. 何も考えずに見れる映画（articles/mindless-action.md）: レビュー2回反映、WP下書き ID 545
-- [~] 4. 個別8本: 方針変更（作品ごとの具体的な疑問に答える形。docs/review-rewrite-brief.md）。Sonnetで執筆完了、Opusで検証中
+- [x] 4. 個別8本: 方針変更（作品ごとの具体的な疑問に答える形。docs/review-rewrite-brief.md）。Sonnet執筆→Opus検証（4〜5点）→全面書き直し→Opus再検証（6.5〜7点）→反映、WP下書き535〜542更新（更新前は docs/backup/）
 - [x] 5. 既存24記事の仕分け案: docs/triage-24.md
+- [x] 6. handoff.md 更新、style-guide にAIっぽい型の表を追記
