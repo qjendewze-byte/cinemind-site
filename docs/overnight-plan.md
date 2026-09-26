@@ -32,7 +32,7 @@
 
 - [x] 504 現実逃避まとめ: 書き直し、レビュー3回、WP下書き更新済み（更新前は docs/backup/ に保存）
 - [x] 検索語調査: 「何も考えずに見れる映画 洋画（アクション）」に決定
-- [~] 1. 90分以内（articles/short-movies-90min.md）: レビュー1回目反映済み、2回目レビュー中
-- [~] 3. 何も考えずに見れる映画（articles/mindless-action.md）: レビュー1回目中
-- [~] 4. 個別8本: 方針変更（作品ごとの具体的な疑問に答える形。docs/review-rewrite-brief.md）。Sonnetで執筆中
+- [x] 1. 90分以内（articles/short-movies-90min.md）: レビュー2回反映、WP下書き ID 544
+- [x] 3. 何も考えずに見れる映画（articles/mindless-action.md）: レビュー2回反映、WP下書き ID 545
+- [~] 4. 個別8本: 方針変更（作品ごとの具体的な疑問に答える形。docs/review-rewrite-brief.md）。Sonnetで執筆完了、Opusで検証中
 - [x] 5. 既存24記事の仕分け案: docs/triage-24.md
