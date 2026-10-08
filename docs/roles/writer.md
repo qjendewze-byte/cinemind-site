@@ -10,7 +10,7 @@
 - 感想・評価は書かない。読者は日本人
 - **導入**: ①作品を具体的な事実で1〜2文で紹介 ②今の状況（全何作、公開日など）③この記事で分かることを箇条書き2〜4個。読者に同意するだけの前置きは書かない
 - 上位記事にあって必要なもの（図、用語解説、作品ごとの「なぜ観るか」）は入れる
-- 図はブリーフの「図の案」をもとに SVG で作り `articles/img/<slug>-<名前>.svg` に保存。本文には `[[IMG:<ファイル名>|代替テキスト]]` と書く
+- 図はブリーフの「図の案」をもとに、`tools/diagram.py` の形式（相関図 relations／流れ図 flow。ファイル冒頭の説明を読む）でJSONを書き `articles/img/<slug>-<名前>.json` に保存し、`arch -x86_64 /usr/bin/python3 tools/diagram.py <json> articles/img/<slug>-<名前>.png` でPNGにする。できたPNGはReadツールで目で見て、文字の重なり・はみ出しがあれば直す。本文には `[[IMG:<slug>-<名前>.png|代替テキスト]]` と書く
 - 頭書き（title 32字前後で検索語を前半に／slug／meta_description 120字前後／excerpt 60〜80字／categories は既存から）
 
 ## 納品

@@ -1,0 +1,208 @@
+{
+ "type": "relations",
+ "title": "デューン 相関図（ネタバレなし）",
+ "groups": [
+  {
+   "name": "ベネ・ゲセリット",
+   "color": "#3f8a5c",
+   "col": 0,
+   "row": 0,
+   "nodes": [
+    {
+     "id": "mohiam",
+     "label": "教母モヒアム",
+     "sub": "シャーロット・ランプリング",
+     "desc": "ベネ・ゲセリットの教母"
+    }
+   ]
+  },
+  {
+   "name": "アトレイデス家",
+   "color": "#2f6f9f",
+   "col": 0,
+   "row": 1,
+   "nodes": [
+    {
+     "id": "jessica",
+     "label": "レディ・ジェシカ",
+     "sub": "レベッカ・ファーガソン",
+     "desc": "ポールの母・レト公爵の愛妾"
+    },
+    {
+     "id": "leto",
+     "label": "レト公爵",
+     "sub": "オスカー・アイザック",
+     "desc": "ポールの父・当主"
+    },
+    {
+     "id": "duncan",
+     "label": "ダンカン・アイダホ",
+     "sub": "ジェイソン・モモア",
+     "desc": "家臣の剣士"
+    }
+   ]
+  },
+  {
+   "name": "",
+   "color": "#2f6f9f",
+   "col": 1,
+   "row": 0,
+   "nodes": [
+    {
+     "id": "gurney",
+     "label": "ガーニイ・ハレック",
+     "sub": "ジョシュ・ブローリン",
+     "desc": "家臣・武術指南役"
+    },
+    {
+     "id": "paul",
+     "label": "ポール",
+     "sub": "ティモシー・シャラメ",
+     "desc": "アトレイデス家の跡継ぎ"
+    }
+   ]
+  },
+  {
+   "name": "",
+   "color": "#7a5aa6",
+   "col": 1,
+   "row": 2,
+   "nodes": [
+    {
+     "id": "shaddam",
+     "label": "皇帝シャッダム4世",
+     "sub": "クリストファー・ウォーケン",
+     "desc": "皇帝側・いまの皇帝"
+    },
+    {
+     "id": "irulan",
+     "label": "皇女イルーラン",
+     "sub": "フローレンス・ピュー",
+     "desc": "皇帝側・皇帝の娘"
+    }
+   ]
+  },
+  {
+   "name": "フレメン",
+   "color": "#b0842c",
+   "col": 2,
+   "row": 0,
+   "nodes": [
+    {
+     "id": "stilgar",
+     "label": "スティルガー",
+     "sub": "ハビエル・バルデム",
+     "desc": "フレメンの長"
+    },
+    {
+     "id": "chani",
+     "label": "チャニ",
+     "sub": "ゼンデイヤ",
+     "desc": "フレメンの戦士"
+    }
+   ]
+  },
+  {
+   "name": "ハルコンネン家",
+   "color": "#b5483c",
+   "col": 2,
+   "row": 2,
+   "nodes": [
+    {
+     "id": "baron",
+     "label": "ハルコンネン男爵",
+     "sub": "ステラン・スカルスガルド",
+     "desc": "アトレイデス家の宿敵"
+    },
+    {
+     "id": "feyd",
+     "label": "フェイド＝ラウサ",
+     "sub": "オースティン・バトラー",
+     "desc": "男爵の甥"
+    },
+    {
+     "id": "rabban",
+     "label": "ラッバーン",
+     "sub": "デイヴ・バウティスタ",
+     "desc": "男爵の甥"
+    }
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "mohiam",
+   "to": "jessica",
+   "label": "師弟",
+   "at": 0.25
+  },
+  {
+   "from": "jessica",
+   "to": "leto",
+   "label": "愛妾"
+  },
+  {
+   "from": "jessica",
+   "to": "paul",
+   "label": "母子"
+  },
+  {
+   "from": "leto",
+   "to": "paul",
+   "label": "父子",
+   "at": 0.5
+  },
+  {
+   "from": "duncan",
+   "to": "leto",
+   "label": "家臣",
+   "at": 0.5
+  },
+  {
+   "from": "gurney",
+   "to": "paul",
+   "label": "家臣"
+  },
+  {
+   "from": "stilgar",
+   "to": "paul",
+   "label": "かくまう",
+   "at": 0.5
+  },
+  {
+   "from": "chani",
+   "to": "paul",
+   "label": "恋人",
+   "both": true
+  },
+  {
+   "from": "baron",
+   "to": "paul",
+   "label": "宿敵",
+   "at": 0.5
+  },
+  {
+   "from": "shaddam",
+   "to": "paul",
+   "label": "危険視"
+  },
+  {
+   "from": "irulan",
+   "to": "shaddam",
+   "label": "父娘"
+  },
+  {
+   "from": "feyd",
+   "to": "baron",
+   "label": "甥"
+  }
+ ],
+ "font": {
+  "name": 18,
+  "sub": 14,
+  "head": 17,
+  "label": 14
+ },
+ "box_width": 230,
+ "col_width": 270
+}

@@ -1,0 +1,165 @@
+{
+ "type": "relations",
+ "title": "デューン 相関図（PART2終了時点・ネタバレあり）",
+ "col_width": 270,
+ "box_width": 230,
+ "groups": [
+  {
+   "name": "アトレイデス家",
+   "color": "#2f6f9f",
+   "col": 0,
+   "row": 0,
+   "nodes": [
+    {
+     "id": "jessica",
+     "label": "レディ・ジェシカ",
+     "sub": "レベッカ・ファーガソン",
+     "desc": "教母を継ぐ",
+     "row": 1
+    },
+    {
+     "id": "alia",
+     "label": "アリア",
+     "sub": "アニャ・テイラー＝ジョイ",
+     "desc": "胎児のまま覚醒",
+     "row": 0
+    }
+   ]
+  },
+  {
+   "name": "アトレイデス家",
+   "color": "#2f6f9f",
+   "col": 1,
+   "row": 0,
+   "nodes": [
+    {
+     "id": "gurney",
+     "label": "ガーニイ・ハレック",
+     "sub": "ジョシュ・ブローリン",
+     "desc": "ポールの家臣",
+     "row": 0
+    },
+    {
+     "id": "paul",
+     "label": "ポール",
+     "sub": "ティモシー・シャラメ",
+     "desc": "皇位を取る",
+     "row": 1
+    }
+   ]
+  },
+  {
+   "name": "",
+   "color": "#7a5aa6",
+   "col": 1,
+   "row": 2,
+   "nodes": [
+    {
+     "id": "irulan",
+     "label": "皇女イルーラン",
+     "sub": "フローレンス・ピュー",
+     "desc": "皇帝側・ポールと結婚する",
+     "row": 1
+    },
+    {
+     "id": "shaddam",
+     "label": "皇帝シャッダム4世",
+     "sub": "クリストファー・ウォーケン",
+     "desc": "ポールに敗れ、助命される",
+     "row": 0
+    }
+   ]
+  },
+  {
+   "name": "フレメン",
+   "color": "#b0842c",
+   "col": 2,
+   "row": 0,
+   "nodes": [
+    {
+     "id": "stilgar",
+     "label": "スティルガー",
+     "sub": "ハビエル・バルデム",
+     "desc": "ポールに従う",
+     "row": 0
+    },
+    {
+     "id": "chani",
+     "label": "チャニ",
+     "sub": "ゼンデイヤ",
+     "desc": "ポールのもとを去る",
+     "row": 2
+    }
+   ]
+  },
+  {
+   "name": "諸侯",
+   "color": "#7a5aa6",
+   "col": 2,
+   "row": 2,
+   "nodes": [
+    {
+     "id": "landsraad",
+     "label": "大領家連合",
+     "sub": "（諸侯の連合）",
+     "desc": "ポールの皇位を認めない",
+     "row": 2
+    }
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "jessica",
+   "to": "alia",
+   "label": "母娘"
+  },
+  {
+   "from": "jessica",
+   "to": "paul",
+   "label": "母子",
+   "at": 0.45
+  },
+  {
+   "from": "gurney",
+   "to": "paul",
+   "label": "家臣"
+  },
+  {
+   "from": "stilgar",
+   "to": "paul",
+   "label": "従う",
+   "at": 0.4
+  },
+  {
+   "from": "chani",
+   "to": "paul",
+   "label": "去る",
+   "dashed": true
+  },
+  {
+   "from": "paul",
+   "to": "irulan",
+   "label": "結婚"
+  },
+  {
+   "from": "shaddam",
+   "to": "irulan",
+   "label": "父娘"
+  },
+  {
+   "from": "landsraad",
+   "to": "paul",
+   "label": "認めない",
+   "dashed": true,
+   "at": 0.5
+  }
+ ],
+ "row_height": 140,
+ "font": {
+  "name": 18,
+  "sub": 14,
+  "head": 17,
+  "label": 14
+ }
+}

@@ -15,6 +15,11 @@ while i < len(lines):
     ln = lines[i]
     if ln.startswith('# '):
         i += 1; continue
+    if ln.strip().startswith('[[IMG:'):
+        name, alt = re.match(r'\[\[IMG:([^|\]]+)\|([^\]]*)\]\]', ln.strip()).groups()
+        img = json.load(open('articles/img/uploaded.json'))[name]
+        out.append('<!-- wp:image {"id":%d,"sizeSlug":"full","linkDestination":"media"} -->\n<figure class="wp-block-image size-full"><a href="%s"><img src="%s" alt="%s" class="wp-image-%d"/></a><figcaption class="wp-element-caption">タップで拡大できます</figcaption></figure>\n<!-- /wp:image -->' % (img['id'], img['url'], img['url'], html.escape(alt), img['id']))
+        i += 1; continue
     if ln.strip().startswith('[[CARD:'):
         pid = ln.strip()[7:-2]
         out.append('<!-- wp:loos/post-link {"postId":"%s"} /-->' % pid)
