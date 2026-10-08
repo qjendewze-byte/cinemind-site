@@ -1,8 +1,8 @@
 {
  "dune3-prep-order.png": {
-  "id": 642,
-  "url": "https://cinemind.jp/wp-content/uploads/2026/10/dune3-prep-order.png",
-  "sha1": "c10cf851b0c55e5dfc3215ac54ec56b14c7d7a43"
+  "id": 647,
+  "url": "https://cinemind.jp/wp-content/uploads/2026/10/dune3-prep-order-1.png",
+  "sha1": "d6b60f8ae43eaa977091c243642d7a33866d13be"
  },
  "dune3-prep-relations1.png": {
   "id": 643,
@@ -13,5 +13,10 @@
   "id": 644,
   "url": "https://cinemind.jp/wp-content/uploads/2026/10/dune3-prep-relations2.png",
   "sha1": "81779506da4e3dce575a499f78f8b8a7d6b8b88f"
+ },
+ "doomsday-prep-minimum.png": {
+  "id": 646,
+  "url": "https://cinemind.jp/wp-content/uploads/2026/10/doomsday-prep-minimum.png",
+  "sha1": "c15373eff7f11f06f4f95644119c9350d4d8640e"
  }
 }

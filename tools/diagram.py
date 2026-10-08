@@ -72,8 +72,8 @@ def arrow(d, x1, y1, x2, y2, color, dashed=False, width=2):
         d.line((x2, y2, x2 - L * math.cos(ang + s), y2 - L * math.sin(ang + s)), fill=color, width=w)
 
 
-def draw_title(d, W, title, y):
-    f = font(FONT_B, 22)
+def draw_title(d, W, title, y, size=22):
+    f = font(FONT_B, size)
     d.text(((W - text_w(d, title, f)) / 2, y), title, font=f, fill=INK)
 
 
@@ -187,15 +187,20 @@ def relations(spec):
 
 
 def flow(spec):
+    """縦の流れ図。spec の font（name/sub/note）と box_width で文字と幅を変えられる。"""
     steps, side = spec['steps'], spec.get('side', [])
-    boxw, boxh, gap = 320 * S, 64 * S, 34 * S
+    fz = spec.get('font', {})
+    zn, zs = fz.get('name', 15), fz.get('sub', 12)
+    boxw = spec.get('box_width', 320) * S
+    boxh = int((zn + 12 + zs + 18) * S)
+    gap = 34 * S
     top = 70 * S
     W = (boxw + 60 * S) + ((280 * S + 40 * S) if side else 0)
     H = top + max(len(steps), len(side)) * (boxh + gap) + 30 * S
-    img = Image.new('RGB', (W, H), 'white')
+    img = Image.new('RGB', (int(W), int(H)), 'white')
     d = ImageDraw.Draw(img)
     draw_title(d, W, spec.get('title', ''), 20 * S)
-    fb, fs = font(FONT_B, 15), font(FONT_R, 12)
+    fb, fs = font(FONT_B, zn), font(FONT_R, zs)
     c = hex2rgb(spec.get('color', '#2f6f9f'))
     x0 = 30 * S
     for i, st in enumerate(steps):
@@ -203,10 +208,10 @@ def flow(spec):
         d.rounded_rectangle((x0, y, x0 + boxw, y + boxh), 8 * S, fill=tint(c, 0.88), outline=c, width=2 * S)
         d.text((x0 + 16 * S, y + 10 * S), st['label'], font=fb, fill=INK)
         if st.get('sub'):
-            d.text((x0 + 16 * S, y + 36 * S), st['sub'], font=fs, fill=SUB)
+            d.text((x0 + 16 * S, y + (zn + 20) * S), st['sub'], font=fs, fill=SUB)
         if st.get('note'):
             tw = text_w(d, st['note'], fs)
-            d.text((x0 + boxw - tw - 12 * S, y + 36 * S), st['note'], font=fs, fill=c)
+            d.text((x0 + boxw - tw - 12 * S, y + (zn + 20) * S), st['note'], font=fs, fill=c)
         if i < len(steps) - 1:
             arrow(d, x0 + boxw / 2, y + boxh, x0 + boxw / 2, y + boxh + gap - 2 * S, c)
     sx = x0 + boxw + 40 * S
@@ -220,7 +225,7 @@ def flow(spec):
         d.line((sx + bw, y, sx + bw, y + boxh), fill=LINE, width=2 * S)
         d.text((sx + 14 * S, y + 10 * S), st['label'], font=fb, fill=SUB)
         if st.get('sub'):
-            d.text((sx + 14 * S, y + 36 * S), st['sub'], font=fs, fill=SUB)
+            d.text((sx + 14 * S, y + (zn + 20) * S), st['sub'], font=fs, fill=SUB)
     return img
 
 
