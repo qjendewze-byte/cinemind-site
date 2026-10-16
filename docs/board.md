@@ -38,6 +38,9 @@
 
 ## メモ
 
+- 次の作業（2026-10-17 中断）: MCU新規 spiderman-homecoming / thor3 / blackpanther のブリーフ docs/briefs/mcu-new-3c.md ができた。次は原稿作成から。候補に「スパイダーマン 見る順番」
+- 要確認: articles/thor2.md の「ソーがストレンジを訪ね」の向き、articles/avengers.md の「ホームカミングは決戦の直後」（実際は『シビル・ウォー』の数か月後）。入稿前に直す
+
 - AWS移行中（docs/aws-migration.md）。旧サーバーのデータは 2026-10-16 に書き出し済み。切り替えまで旧WordPressに書き込まない（書き込んだら切り替え前に書き出し直す）
 
 - 638 を公開したら、542（メッセージ）の末尾にブログカード（postId 638）を足す
