@@ -85,4 +85,3 @@ categories: SF, アクション, 洋画
 
 [[CARD:captainmarvel]]
 
-[[CARD:637]]
