@@ -81,3 +81,5 @@ categories: SF, アクション, 洋画
 ## MCUの公開順で前後の作品
 
 [[CARD:thor3]]
+
+[[CARD:infinitywar]]

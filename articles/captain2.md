@@ -65,3 +65,5 @@ categories: SF, アクション, 洋画
 ## MCUの公開順で前後の作品
 
 [[CARD:467]]
+
+[[CARD:guardians1]]
