@@ -1,0 +1,17 @@
+{"type":"relations","title":"偽装家族の4人と、レッドルーム","col_width":210,"box_width":196,
+"font":{"name":18,"sub":14,"head":15,"label":14},
+"groups":[
+{"name":"娘の役","color":"#2f6f9f","col":0,"row":0,"nodes":[
+{"id":"na","label":"ナターシャ","sub":"姉の役。ウィドウ"},
+{"id":"el","label":"エレーナ","sub":"妹の役。ウィドウ"}]},
+{"name":"親の役","color":"#2f6f9f","col":1,"row":0,"nodes":[
+{"id":"al","label":"アレクセイ","sub":"父の役"},
+{"id":"me","label":"メリーナ","sub":"母の役。ウィドウ"}]},
+{"name":"レッドルーム","color":"#b0503a","col":0,"row":2,"nodes":[
+{"id":"dr","label":"ドレイコフ","sub":"支配者。ウィドウを操る"}]},
+{"name":"","color":"#b0503a","col":1,"row":2,"nodes":[
+{"id":"an","label":"アントニア","sub":"娘。タスクマスター"}]}],
+"edges":[
+{"from":"dr","to":"an"},
+{"from":"na","to":"el","label":"姉妹の役","both":true},
+{"from":"al","to":"me","label":"夫婦の役","both":true}]}
