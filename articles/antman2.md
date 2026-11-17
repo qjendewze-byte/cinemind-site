@@ -76,6 +76,12 @@ categories: SF, アクション, 洋画
 
 [[CARD:captainmarvel]]
 
+## 続編『クアントマニア』
+
+続編（2023年）に出てくる征服者カーンについては、別の記事にまとめています。結末に触れる記事です。
+
+[[CARD:antman3]]
+
 ## MCU全体の見る順番
 
 [[CARD:mcu-order]]

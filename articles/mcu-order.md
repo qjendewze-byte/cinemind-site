@@ -154,9 +154,13 @@ MCUは公開順に見れば大丈夫です。全部見るなら、劇場公開�
 
 [[CARD:shangchi]]
 
+[[CARD:eternals]]
+
 [[CARD:nwh]]
 
 [[CARD:doctorstrange2]]
+
+[[CARD:thor4]]
 
 [[CARD:blackpanther2]]
 
@@ -170,6 +174,8 @@ MCUは公開順に見れば大丈夫です。全部見るなら、劇場公開�
 | 34 | デッドプール＆ウルヴァリン | 2024年 |
 | 35 | キャプテン・アメリカ：ブレイブ・ニュー・ワールド | 2025年 |
 | 36 | サンダーボルツ* | 2025年 |
+
+[[CARD:antman3]]
 
 [[CARD:guardians3]]
 

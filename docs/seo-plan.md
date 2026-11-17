@@ -38,3 +38,4 @@
 | 日付 | 内容 |
 |---|---|
 | 2026-11-17 | 計画作成。第1弾（6本）のリサーチ発注。MCU カテゴリ・メニュー・トップの文言を変更（段階2の大半） |
+| 2026-11-17 | 段階1を完了。新規15本（nwh, spiderman-order, thunderbolts, captain4, deadpool-wolverine, fantastic4, shangchi, blackwidow, doctorstrange2, blackpanther2, guardians3, marvels, eternals, thor4, antman3）を公開。すべて事実・編集8点以上。関連記事からカード |

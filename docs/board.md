@@ -79,4 +79,5 @@ MCU新規13本を公開（ID 658〜670、ユーザー指示「下書きはいい
 - 上映時間はサイト全体で日本語版Wikipediaの値にそろえる（資料で1分ずれることが多いため）
 - 公開: deadpool-wolverine（821）、fantastic4（822）。captain4・thunderbolts・doomsday-prep・mcu-order（フェーズ4〜6の表の下）からカード
 - 第2弾の公開: shangchi（833）、blackwidow（834）、doctorstrange2・blackpanther2（同日）。doctorstrange・blackpanther・thunderbolts・doomsday-prep・mcu-order からカード。doomsday-prep「ハーブを食べ」→「飲み」
-- 第3弾のリサーチ中: guardians3・marvels、eternals・thor4・antman3
+- 第3弾の公開: guardians3（856）、marvels（857）、eternals（868）、thor4（869）、antman3（870）。guardians2・captainmarvel・thor3・antman2・mcu-order からカード
+- これでMCUはエンドゲーム以降も『ファンタスティック4』まで全作に記事がある（『ブランド・ニュー・デイ』のみ未作成）
