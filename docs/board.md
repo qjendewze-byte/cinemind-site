@@ -1,6 +1,6 @@
 # 作業ボード
 
-更新: 2026-11-14（統括）
+更新: 2026-11-17（統括）
 
 ## 承認待ち
 
@@ -64,3 +64,10 @@ MCU新規13本を公開（ID 658〜670、ユーザー指示「下書きはいい
 - 表示の多い11本（ironman2, hulk1, captain2, ironman3, ironman1, ultron, antman2, captain1, infinitywar, civilwar, guardians2）の title・meta・excerpt を検索語に合わせて書き直し、検索語に答える節を追加（案 docs/gsc/proposals-2026-11-17.md、事実確認 9点 docs/gsc/factcheck-2026-11-17.md）。アイキャッチも新 title に合わせた
 - MCU全23本の末尾に「MCU全体の見る順番」（mcu-order へのカード）
 - 次回: 2〜3週間後に Search Console で11本の CTR と順位を比べる。旧記事（MI・SF単発）は表示ほぼゼロ（noindex 等の問題はなし）
+
+## サイト構造（2026-11-17、docs/seo-plan.md の段階2）
+
+- カテゴリ「MCU」（ID 30、/category/mcu/）を新設し、MCU記事25本に付与。パンくずが「HOME > MCU」になった
+- ヘッダーメニュー: 「MCU」（子に「MCU 見る順番」499、「ドゥームズデイの予習」637）を追加。記事0本のカテゴリ（邦画・ドキュメンタリー・ホラー・アニメ・泣きたい夜）を外した
+- キャッチコピー「見る順番と前作とのつながりがわかる映画ガイド」、トップの見出し・説明文も変更
+- 変更前は docs/backup/structure-before-2026-11-17/。新しいMCU記事を公開したらカテゴリ30も付ける

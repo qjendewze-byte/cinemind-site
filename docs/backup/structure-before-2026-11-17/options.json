@@ -1,0 +1,15 @@
+{
+ "loos_customizer": {
+  "mv_on_scroll": false,
+  "mv_img_filter": "texture-dot",
+  "mv_overlay_opacity": 0.2,
+  "slider1_imgid": 32,
+  "slider1_imgid_sp": 32,
+  "slider1_title": "映画が心を整える",
+  "slider1_txtpos": "l"
+ },
+ "ssp_settings": {
+  "home_title": "%_site_title_% %_sep_% %_tagline_%",
+  "home_desc": ""
+ }
+}
