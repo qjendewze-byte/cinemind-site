@@ -156,6 +156,10 @@ MCUは公開順に見れば大丈夫です。全部見るなら、劇場公開�
 
 [[CARD:nwh]]
 
+[[CARD:doctorstrange2]]
+
+[[CARD:blackpanther2]]
+
 ### フェーズ5
 
 | 順 | 作品 | 日本公開 |

@@ -84,6 +84,12 @@ categories: SF, アクション, 洋画
 
 [[CARD:guardians2]]
 
+## 続編『マルチバース・オブ・マッドネス』
+
+続編（2022年）でワンダが敵になる経緯は、別の記事にまとめています。結末に触れる記事です。
+
+[[CARD:doctorstrange2]]
+
 ## MCU全体の見る順番
 
 [[CARD:mcu-order]]

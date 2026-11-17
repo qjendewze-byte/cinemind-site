@@ -78,4 +78,5 @@ MCU新規13本を公開（ID 658〜670、ユーザー指示「下書きはいい
 - 既存記事の更新: ffh→nwh、spiderman-homecoming→spiderman-order（「ウェブ版」→「アメイジング版」、NWH を2022年に）、mcu-order→spiderman-order、doomsday-prep→nwh・captain4・thunderbolts のカード、「トーレス」→「トレス」、F4の舞台「1964年」→「1960年代風の世界」
 - 上映時間はサイト全体で日本語版Wikipediaの値にそろえる（資料で1分ずれることが多いため）
 - 公開: deadpool-wolverine（821）、fantastic4（822）。captain4・thunderbolts・doomsday-prep・mcu-order（フェーズ4〜6の表の下）からカード
-- 第2弾のリサーチ中: doctorstrange2・blackpanther2、shangchi・blackwidow
+- 第2弾の公開: shangchi（833）、blackwidow（834）、doctorstrange2・blackpanther2（同日）。doctorstrange・blackpanther・thunderbolts・doomsday-prep・mcu-order からカード。doomsday-prep「ハーブを食べ」→「飲み」
+- 第3弾のリサーチ中: guardians3・marvels、eternals・thor4・antman3

@@ -84,6 +84,12 @@ categories: SF, アクション, 洋画
 
 [[CARD:infinitywar]]
 
+## 続編『ワカンダ・フォーエバー』
+
+続編（2022年）のラストに出てくる子供については、別の記事にまとめています。結末に触れる記事です。
+
+[[CARD:blackpanther2]]
+
 ## MCU全体の見る順番
 
 [[CARD:mcu-order]]
