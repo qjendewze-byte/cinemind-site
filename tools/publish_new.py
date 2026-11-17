@@ -7,7 +7,7 @@ def req(url, data=None):
     if data is not None:
         cmd += ["-X", "POST", "-H", "Content-Type: application/json", "--data-binary", "@-"]
     return json.loads(subprocess.run(cmd, input=data, capture_output=True, check=True).stdout)
-CATS = {"SF": 19, "アクション": 20, "洋画": 27}
+CATS = {"SF": 19, "アクション": 20, "洋画": 27, "MCU": 30}
 tmp = os.environ.get("TMPDIR", "/tmp")
 ids, docs = {}, {}
 for slug in sys.argv[1:]:

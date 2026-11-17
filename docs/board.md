@@ -71,3 +71,10 @@ MCU新規13本を公開（ID 658〜670、ユーザー指示「下書きはいい
 - ヘッダーメニュー: 「MCU」（子に「MCU 見る順番」499、「ドゥームズデイの予習」637）を追加。記事0本のカテゴリ（邦画・ドキュメンタリー・ホラー・アニメ・泣きたい夜）を外した
 - キャッチコピー「見る順番と前作とのつながりがわかる映画ガイド」、トップの見出し・説明文も変更
 - 変更前は docs/backup/structure-before-2026-11-17/。新しいMCU記事を公開したらカテゴリ30も付ける
+
+## 第1弾の公開（2026-11-17、docs/seo-plan.md の段階1）
+
+- 公開: nwh（801）、spiderman-order（802）、thunderbolts（812）、captain4（813）。いずれも事実・編集8点以上、MCUカテゴリ付き、アイキャッチ設定済み
+- 既存記事の更新: ffh→nwh、spiderman-homecoming→spiderman-order（「ウェブ版」→「アメイジング版」、NWH を2022年に）、mcu-order→spiderman-order、doomsday-prep→nwh・captain4・thunderbolts のカード、「トーレス」→「トレス」、F4の舞台「1964年」→「1960年代風の世界」
+- 上映時間はサイト全体で日本語版Wikipediaの値にそろえる（資料で1分ずれることが多いため）
+- 残り: deadpool-wolverine・fantastic4 は2巡目の確認中。公開したら captain4→deadpool-wolverine、thunderbolts→fantastic4、doomsday-prep の DPW・F4 の節にカードを足す
