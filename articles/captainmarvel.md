@@ -73,6 +73,12 @@ categories: SF, アクション, 洋画
 
 [[CARD:endgame]]
 
+## 続編『マーベルズ』
+
+続編（2023年）で3人が入れ替わる理由は、別の記事にまとめています。結末に触れる記事です。
+
+[[CARD:marvels]]
+
 ## MCU全体の見る順番
 
 [[CARD:mcu-order]]

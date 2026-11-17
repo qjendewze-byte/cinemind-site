@@ -171,6 +171,10 @@ MCUは公開順に見れば大丈夫です。全部見るなら、劇場公開�
 | 35 | キャプテン・アメリカ：ブレイブ・ニュー・ワールド | 2025年 |
 | 36 | サンダーボルツ* | 2025年 |
 
+[[CARD:guardians3]]
+
+[[CARD:marvels]]
+
 [[CARD:deadpool-wolverine]]
 
 [[CARD:captain4]]

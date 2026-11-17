@@ -90,6 +90,12 @@ categories: SF, アクション, 洋画
 
 [[CARD:doctorstrange]]
 
+## 続編『VOLUME 3』
+
+シリーズ3作目（2023年）で明かされるロケットの過去は、別の記事にまとめています。結末に触れる記事です。
+
+[[CARD:guardians3]]
+
 ## MCU全体の見る順番
 
 [[CARD:mcu-order]]
