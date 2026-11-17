@@ -86,6 +86,8 @@ categories: MCU, SF, アクション, 洋画
 
 ## MCUの公開順で前後の作品
 
+[[CARD:deadpool-wolverine]]
+
 [[CARD:thunderbolts]]
 
 ## MCU全体の見る順番

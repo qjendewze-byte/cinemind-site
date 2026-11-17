@@ -111,6 +111,8 @@ categories: MCU, SF, アクション, 洋画
 
 [[CARD:captain4]]
 
+[[CARD:fantastic4]]
+
 ## MCU全体の見る順番
 
 [[CARD:mcu-order]]

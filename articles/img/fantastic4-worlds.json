@@ -1,10 +1,1 @@
-{"type":"relations","title":"ファンタスティック4（2025）と、ほかの世界",
-"groups":[
-{"name":"アース616（MCUの本筋）","color":"#2f8f5f","nodes":[
-{"id":"a","label":"サンダーボルツ*","sub":"ポストクレジットに「4」の宇宙船","row":0}]},
-{"name":"アース828","color":"#2f6f9f","nodes":[
-{"id":"c","label":"ファンタスティック4","sub":"ファースト・ステップ（2025）","row":0}]},
-{"name":"虚無（旧フォックス）","color":"#9f5f2f","nodes":[
-{"id":"e","label":"ジョニー・ストーム","sub":"デッドプール＆ウルヴァリン","row":0}]}
-],
-"edges":[{"from":"a","to":"c","label":"おまけ映像","both":false},{"from":"e","to":"c","label":"別の俳優","both":false}]}
+{"type": "relations", "title": "ファンタスティック4（2025）と、ほかの世界", "groups": [{"name": "アース616（MCUの本筋）", "color": "#2f8f5f", "nodes": [{"id": "a", "label": "サンダーボルツ*", "sub": "ポストクレジットに宇宙船", "row": 0}]}, {"name": "アース828", "color": "#2f6f9f", "nodes": [{"id": "c", "label": "ファンタスティック4", "sub": "ファースト・ステップ（2025）", "row": 0}]}, {"name": "虚無（旧フォックス）", "color": "#9f5f2f", "nodes": [{"id": "e", "label": "ジョニー・ストーム", "sub": "デッドプール＆ウルヴァリン", "row": 0}]}], "edges": [{"from": "a", "to": "c", "label": "おまけ映像", "both": false}, {"from": "e", "to": "c", "label": "別の俳優", "both": false}], "col_width": 300}
