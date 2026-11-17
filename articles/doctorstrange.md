@@ -83,3 +83,7 @@ categories: SF, アクション, 洋画
 [[CARD:civilwar]]
 
 [[CARD:guardians2]]
+
+## MCU全体の見る順番
+
+[[CARD:mcu-order]]

@@ -47,3 +47,7 @@ categories: SF, アクション, 洋画
 [[CARD:423]]
 
 [[CARD:432]]
+
+## MCU全体の見る順番
+
+[[CARD:mcu-order]]

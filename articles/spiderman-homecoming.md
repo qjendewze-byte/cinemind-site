@@ -89,3 +89,7 @@ categories: SF, アクション, 洋画
 [[CARD:thor3]]
 
 [[CARD:ffh]]
+
+## MCU全体の見る順番
+
+[[CARD:mcu-order]]

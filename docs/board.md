@@ -57,3 +57,10 @@ MCU新規13本を公開（ID 658〜670、ユーザー指示「下書きはいい
 - カード: endgame・spiderman-homecoming → ffh
 - SWELL のブログカードはキャッシュ（transient swell_card_id*）される。アイキャッチやタイトルを変えたら、一時スニペットで消す（scratchpad の snip.json と同じ内容）
 - 12/18 のドゥームズデイ公開後、mcu-order の「38本」「39本目」を更新
+
+## Search Console 対策（2026-11-17）
+
+- 分析: docs/gsc/analysis-2026-11-17.md（表示は1日100前後、CTR 0.83%、順位8.8）
+- 表示の多い11本（ironman2, hulk1, captain2, ironman3, ironman1, ultron, antman2, captain1, infinitywar, civilwar, guardians2）の title・meta・excerpt を検索語に合わせて書き直し、検索語に答える節を追加（案 docs/gsc/proposals-2026-11-17.md、事実確認 9点 docs/gsc/factcheck-2026-11-17.md）。アイキャッチも新 title に合わせた
+- MCU全23本の末尾に「MCU全体の見る順番」（mcu-order へのカード）
+- 次回: 2〜3週間後に Search Console で11本の CTR と順位を比べる。旧記事（MI・SF単発）は表示ほぼゼロ（noindex 等の問題はなし）

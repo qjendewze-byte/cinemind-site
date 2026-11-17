@@ -89,3 +89,7 @@ categories: SF, アクション, 洋画
 
 
 [[CARD:doomsday-prep]]
+
+## MCU全体の見る順番
+
+[[CARD:mcu-order]]

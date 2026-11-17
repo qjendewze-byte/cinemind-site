@@ -83,3 +83,7 @@ categories: SF, アクション, 洋画
 [[CARD:thor3]]
 
 [[CARD:infinitywar]]
+
+## MCU全体の見る順番
+
+[[CARD:mcu-order]]

@@ -113,3 +113,7 @@ E.D.I.T.H.を手に入れた経緯も、乾杯で語られます。トニーの�
 [[CARD:endgame]]
 
 [[CARD:spiderman-homecoming]]
+
+## MCU全体の見る順番
+
+[[CARD:mcu-order]]

@@ -74,3 +74,7 @@ categories: SF, アクション, 洋画
 [[CARD:471]]
 
 [[CARD:ultron]]
+
+## MCU全体の見る順番
+
+[[CARD:mcu-order]]
